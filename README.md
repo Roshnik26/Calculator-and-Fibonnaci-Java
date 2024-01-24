@@ -1,13 +1,17 @@
 # Calculator-and-Fibonnaci-Java
-#In Fibonacci.java:
+
+In Fibonacci.java:
 main(String[] args) method: The main method is the entry point of the program. It initializes the value of 'n' and prints the Fibonacci series by calling the fibonacci method in a loop.
 fibonacci(int n) method: This is a recursive function to calculate the nth Fibonacci number. It returns the value of the Fibonacci number at index 'n'. The base case is when 'n' is 0 or 1, in which case it returns 'n'. Otherwise, it recursively calculates the sum of the previous two Fibonacci numbers
-#In Main.java:
+
+In Main.java:
 main(String[] args) method: The main method for the Calculator program. It demonstrates the usage of the Calculator class by performing various arithmetic operations and array-related calculations.
-#In UserInput.java:
+
+In UserInput.java:
 getNumberInput(String message) method: This method takes a message as input, prints the message, and then reads an integer input from the user using the Scanner class. It returns the entered integer.
 getArrayInput() method: This method prompts the user to enter the size of an array and the elements of the array. It returns an array of integers based on user input.
-#In Calculator.java:
+
+In Calculator.java:
 Arithmetic operation methods:
 add(int a, int b) method: Adds two integers and returns the result.
 subtract(int a, int b) method: Subtracts the second integer from the first and returns the result.
